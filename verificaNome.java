@@ -1,8 +1,10 @@
 package org.example;
+
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
-        String nome ="";
+
+public class verificaNome {
+    public static void verifica() {
+        String nome = "";
         Boolean ultNome;
         do {
             System.out.println("Retira 'Neto' do nome");
@@ -19,6 +21,6 @@ public class Main {
             }
         }
         while (!nome.equals("."));
+        return;
     }
 }
-
