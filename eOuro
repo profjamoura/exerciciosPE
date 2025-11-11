@@ -1,0 +1,43 @@
+package org.example;
+/*
+Para verificar se um objeto é ouro verdadeiro, você pode seguir estes métodos:
+Teste do ímã: O ouro não é magnético. Se a peça grudar em um ímã, pode não ser ouro puro.
+2
+Teste da cerâmica: Esfregue a peça de ouro suavemente em uma superfície de cerâmica. Se deixar um rastro dourado, é ouro verdadeiro; se deixar um rastro preto ou cinza, pode ser falso.
+2
+Teste do vinagre: Puxe algumas gotas de vinagre na peça. Se não houver mudança de cor, é ouro verdadeiro; se escurecer ou mudar de cor, pode ser falso.
+2
+Verifique a marcação: Procure marcas de pureza como 18K, 14K ou 24K, que indicam a quantidade de ouro na peça.
+2
+Teste da densidade: Use uma balança para pesar a peça e compare com os pesos padrão do ouro puro. A densidade do ouro puro é 19,32 g/cm³.
+
+Leia o arquivo abaixo e grave na última coluna: 0 ou 1 (TODOS TEM QUE SER 1 PARA QUE NÃO SEJA OURO)
+
++-------------------------------------------------+
+|ima, ceramica, vinagre, marcacao, densidade, ouro|
++-------------------------------------------------+
+
+ */
+import java.util.Scanner;
+
+
+public class eOuro {
+    public static void teste() {
+        System.out.println("passou no teste do imã (s/n)?");
+        Scanner soun = new Scanner(System.in);
+        String simOuNao = soun.next();
+        if (simOuNao == "s") {
+            System.out.println("passou no teste da cerâmica (s/n)?");
+            soun = new Scanner(System.in);
+            simOuNao = soun.next();
+            if (simOuNao == "s") {
+                System.out.println("passou no teste do vinagre (s/n)?");
+                soun = new Scanner(System.in);
+                simOuNao = soun.next();
+            }
+        }
+
+    }
+
+
+}
