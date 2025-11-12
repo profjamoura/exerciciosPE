@@ -1,7 +1,5 @@
 package org.example;
-
 import java.util.Scanner;
-
 public class verificaNome {
     public static void verifica() {
         String nome = "";
