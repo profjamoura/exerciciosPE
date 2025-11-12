@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 public class verificaNome {
     public static void verifica() {
-        String nome = "";
+        String nome;
         Boolean ultNome;
         do {
             System.out.println("Retira 'Neto' do nome");
@@ -19,6 +19,5 @@ public class verificaNome {
             }
         }
         while (!nome.equals("."));
-        return;
     }
 }
