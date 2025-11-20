@@ -3,8 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class consumoDoCarro {
-    public static void pelokm () {
-        Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {        Scanner input = new Scanner(System.in);
         String nome;
         double consumo;
         int km;

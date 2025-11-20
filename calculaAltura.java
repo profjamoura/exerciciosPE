@@ -3,8 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class calculaAltura {
-    public static void calcula() {
-        Scanner tecla = new Scanner(System.in);
+    public static void main(String[] args) {        Scanner tecla = new Scanner(System.in);
         int angulo = 0;
         int catetoAdjacente = 0;
         String nome = "";

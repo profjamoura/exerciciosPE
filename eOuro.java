@@ -15,7 +15,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class eOuro {
-    public static void teste() {
+    public static void main(String[] args) {
         System.out.println("passou no teste do imã (s/n)?");
         Scanner soun1 = new Scanner(System.in);
         String simOuNao1 = soun1.nextLine();
