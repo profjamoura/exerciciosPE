@@ -7,7 +7,7 @@ public class AnoBissexto {
         Se o ano for divisível por 100 (ex: 1900, 2100), ele não será bissexto.
         Se o ano for divisível por 400 (ex: 2000), ele será bissexto, mesmo sendo divisível por 100.
 
-        PS: a qt de IFs pode ser diminuída
+        PS: a qt de linhas pode ser diminuída
     */
     public static void main (String[] args){
         int ano;
