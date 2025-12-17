@@ -8,7 +8,7 @@ public class L1q3Grupos {
     anterior e usando os dados abaixo,leia sexo (use 1 para
     mulheres), CTPS assinada (1=S ou 2=N?), possui filhos (1=S
     ou 2=N?) e diga a qual grupo a pessoa pertence, de A a J:
-
+    Obs: pode ser melhorado usando-se somatório para as respostas
     */
     public static void main(String[] args) {
         String nome;
@@ -68,8 +68,7 @@ public class L1q3Grupos {
                           grupo = "F";
                       }
             }
-                  System.out.println(nome + " pertence ao grupo " + grupo);
-            System.out.println("Continua? (1 para sim/ 0 para não)");
+            System.out.println(nome + " pertence ao grupo " + grupo);System.out.println("Continua? (1 para sim/ 0 para não)");
             digitacao = new Scanner(System.in);
             continua = digitacao.nextInt();
         }
