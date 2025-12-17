@@ -19,7 +19,6 @@ public class L1q3Grupos {
         int continua;
 
         do {
-
             System.out.println("Digite nome");
             Scanner digitacao = new Scanner(System.in);
             nome = digitacao.nextLine();
@@ -36,7 +35,6 @@ public class L1q3Grupos {
             digitacao = new Scanner(System.in);
             qtfilhos = digitacao.nextInt();
 
-
             // sexo, ctps, qtfilhos
             if (sexo == 1) { //mulher
                 if (ctps == 1) { //carteira
@@ -47,7 +45,7 @@ public class L1q3Grupos {
                     }
                 }
                 else { //mulher sem carteira
-                    if (qtfilhos > 0 ){
+                    if (qtfilhos > 0 ){ //com filhos
                         grupo = "G";
                     }
                     else {
@@ -74,5 +72,4 @@ public class L1q3Grupos {
         }
         while (continua == 1);
     }
-
 }
