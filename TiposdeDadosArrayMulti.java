@@ -1,5 +1,5 @@
 package org.example;
-//  unidimensionais
+//  unidimensionais 2
 public class TiposdeDadosArrayMulti {
     public static void main(String[] args) {
         // criando as variáveis
