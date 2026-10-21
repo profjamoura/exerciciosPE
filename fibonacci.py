@@ -1,6 +1,6 @@
 # imprime a sequência de Fibonacci até um número dado
 # autor: profjamoura@gmail.com
-qt=int(input("Quantos números de Fibonacci você quer imprimir?"))
+qt=int(input("Quantos números da sequência de Fibonacci você quer imprimir?"))
 ant=0
 atual=1
 n=3
